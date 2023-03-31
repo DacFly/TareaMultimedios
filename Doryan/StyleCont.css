@@ -1,58 +1,103 @@
-*{
-    color: black;
-    margin: 0; 
+body {
+    margin: 0;
     padding: 0;
-    box-sizing:border-box;
-    font-family: 'Open Sans',sans-serif;
- }
- .container-form{
-    width: 100%;
-    max-width: 1100px;
-    margin: auto;
-    grid-template-columns: repeat(2,1rf);
-    grid-gap: 50px;
-    margin-top: 90px;
-    margin-left: 100px;
-    
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    background: #7ab2c0;
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+  }
+  li a:hover {
+  background-color: #236ea0;
 }
 
- .container-form p{
-     font-size: 17px;
-     line-height:1.6;
-     margin-bottom: 30PX;
- }
- .container-form a{
-     font-size: 17px;
-     display: inline-block;
-     text-decoration: none;
-     margin-bottom: 15px;
-     color: black;
-     font-weight: 700;
- }
- 
- .container-form form .Campo,textarea{
-     width: 100%;
-     padding: 15px 10px;
-     font-size: 15px;
-     border: 1px solid #dbdbdb;
-     margin-bottom: 20px;
-     border-radius: 3px;
-     outline: 0px;
- }
- 
- .container-form .formulario{
-    width: 80%;
-    float: left;
-    justify-content: center;
- }
- .container-form .btn-enviar{
-    padding: 15px;
-    font-size: 16px;
+.active {
+  background-color: #147279;
+}
+  
+  nav li {
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos para el contenido principal */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .mapa {
+    margin-bottom: 20px;
+  }
+  
+  .formulario label,
+  .formulario input,
+  .formulario textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .formulario input,
+  .formulario textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .formulario button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
     border: none;
-    outline: 6px;
-    background:rgb(203, 137, 14) ;
-    color: white;
-    border-radius: 3px;
+    border-radius: 5px;
     cursor: pointer;
-    transition: all 300ms ease;
- }
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #ccc;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Estilos para dispositivos móviles */
+  @media screen and (max-width: 600px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav li {
+      padding: 5px;
+    }
+  
+    .formulario input,
+    .formulario textarea {
+      font-size: 16px;
+    }
+  
+  }
