@@ -1,10 +1,25 @@
 *{
     box-sizing: border-box;
     text-align: center;
+    
 }
 
-
-
+.menu
+{
+    background-color: bisque;
+    width: 15% ;
+    float: left;
+}
+.dashboard{
+    background-color: blueviolet;
+    width: 70%;
+    float: left;
+}
+.rss{
+    background-color: red;
+    width: 15%;
+    float: left;
+}
 
 .footer
 {
@@ -12,29 +27,20 @@
     width: 100%;
     float: left;
     height: 40px;
-
-
-}
-
-.menu
-{
-    background-color: bisque;
-    width: 25% ;
-    float: left;
-}
-.dashboard{
-    background-color: blueviolet;
-    width: 50%;
-    float: left;
-}
-.rss{
-    background-color: rgb(193, 212, 222);
-    width: 25%;
-    float: left;
 }
 .main
 {
     background-color: antiquewhite;
     width: 100%;
     height: 350px;
+}
+.div-video{
+  width: 75%;
+  background-color: blue;
+  float: left;
+}
+.div-texto{
+    width: 25%;
+     background-color:red ;
+     float: left;
 }

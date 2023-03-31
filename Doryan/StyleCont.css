@@ -5,7 +5,9 @@ body {
     font-size: 25px;
     background: #7ab2c0;
   }
-  
+  .iframe-mapa{
+    width: 100%;
+  }
   /* Estilos para el encabezado */
   header {
     background-color: #333;
