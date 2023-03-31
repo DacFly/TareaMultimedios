@@ -66,3 +66,9 @@ div.pie {
   float: left;
   margin: 15px 20px;
 }
+footer {
+  background-color: #4d5766;
+  color: #333;
+  padding: 10px;
+  text-align: center;
+}
