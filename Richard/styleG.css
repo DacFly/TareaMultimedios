@@ -2,13 +2,11 @@
   color: #fff;
   text-align: center;
 }
-
 /*Barra de navegación*/
 body {
   font-size: 25px;
   background: #7ab2c0;
 }
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -17,11 +15,9 @@ ul {
   background-color: #333;
   top: 0;
 }
-
 li {
   float: left;
 }
-
 li a {
   display: block;
   color: rgb(255, 255, 255);
@@ -29,46 +25,80 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
 li a:hover {
   background-color: #236ea0;
 }
-
 .active {
   background-color: #147279;
 }
-
-
-
-div.pie {
-  text-align: center;
-  text-shadow: 2px 2px 5px purple;
-}
-.descripcion {
-  width: 100%;
-  font-size: 22px;
-}
-/* CSS de las tarjetas*/
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  background-color: rgb(255,255,255,0.5);
-  width: 80%;
-  text-align: center;
-  font-family: arial;
-}
 .contenedor-Imagenes{
-  width: 85%;
+  width: 80%;
   margin: 10px auto;
   padding: 10px 0;
-  
-  display: grid;
-  grid-gap: 10 px ;
-  grid-template-columns: repeat(4,auto);
-  grid-template-rows: repeat(3,auto);
   background-color: rgb(255,255,255,0.5);
-  grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
   border-radius: 1%;
+
+  display: grid;
+  grid-template-rows: repeat(3,auto);
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  grid-gap: 10px;
 }
+
+.div-card{
+  background-color:#147279;
+  margin: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+.div-card:hover{
+  box-shadow:  5px 5px 20px rgba(0,0,0,0.5);
+  transform: translateY(-3%);
+} 
+.div-foto{
+  background-color: #147279;
+}
+.div-pie{
+  background-color: #236ea0;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+.div-pie p{
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+/*Contenedor de las imagenes y texto */
+.galeria{
+  width: 95%;
+  height: 95%;
+  margin: auto;
+  background-color: #147279;
+  margin: 0px;
+}
+/*Pone el p sin margenes*/
+.pie p{
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+.foto{
+  width: 100%;
+  height: 75%;
+}
+.img {
+  width: 100%;
+  height:361px;
+}
+.pie {
+  text-align: center;
+  height: 25%;
+  text-shadow: 2px 2px 5px purple;
+}
+.pie .p {
+  margin: auto;
+}
+
 .contenedor-Tarjetas{
   width: 85%;
   margin: 10px auto;
@@ -92,4 +122,8 @@ div.pie {
   height: 300px;
   margin: auto;
   padding: auto;
+}
+.descripcion {
+  width: 100%;
+  font-size: 22px;
 }
