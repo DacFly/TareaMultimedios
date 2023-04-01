@@ -31,6 +31,8 @@ li a:hover {
 .active {
   background-color: #147279;
 }
+
+/*Galeria Imagenes*/
 .contenedor-Imagenes{
   width: 80%;
   margin: 10px auto;
@@ -45,7 +47,6 @@ li a:hover {
 }
 
 .div-card{
-  background-color:#147279;
   margin: 10px;
   border-radius: 10px;
   overflow: hidden;
@@ -57,11 +58,7 @@ li a:hover {
   box-shadow:  5px 5px 20px rgba(0,0,0,0.5);
   transform: translateY(-3%);
 } 
-.div-foto{
-  background-color: #147279;
-}
 .div-pie{
-  background-color: #236ea0;
   margin-block-start: 0em;
   margin-block-end: 0em;
 }
@@ -69,36 +66,11 @@ li a:hover {
   margin-block-start: 0em;
   margin-block-end: 0em;
 }
-/*Contenedor de las imagenes y texto */
-.galeria{
-  width: 95%;
-  height: 95%;
-  margin: auto;
-  background-color: #147279;
-  margin: 0px;
-}
-/*Pone el p sin margenes*/
-.pie p{
-  margin-block-start: 0em;
-  margin-block-end: 0em;
-}
-.foto{
-  width: 100%;
-  height: 75%;
-}
 .img {
   width: 100%;
-  height:361px;
-}
-.pie {
-  text-align: center;
-  height: 25%;
-  text-shadow: 2px 2px 5px purple;
-}
-.pie .p {
-  margin: auto;
-}
-
+  height:360px;
+} 
+/*Contenedor de Tarjetas*/
 .contenedor-Tarjetas{
   width: 85%;
   margin: 10px auto;
