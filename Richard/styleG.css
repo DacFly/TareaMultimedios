@@ -38,37 +38,57 @@ li a:hover {
   background-color: #147279;
 }
 
-/*CSS de las imagenes*/
 
-div.galeria {
-  margin: 15px 20px;
-  float: left;
-  width: 350px;
-}
-
-div.galeria.img {
-  width: 100%;
-  height: auto;
-}
 
 div.pie {
   text-align: center;
   text-shadow: 2px 2px 5px purple;
-  padding: 10px;
+}
+.descripcion {
+  width: 100%;
+  font-size: 22px;
 }
 /* CSS de las tarjetas*/
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
+  background-color: rgb(255,255,255,0.5);
+  width: 80%;
   text-align: center;
   font-family: arial;
-  float: left;
-  margin: 15px 20px;
 }
-footer {
-  background-color: #4d5766;
-  color: #333;
-  padding: 10px;
-  text-align: center;
+.contenedor-Imagenes{
+  width: 85%;
+  margin: 10px auto;
+  padding: 10px 0;
+  
+  display: grid;
+  grid-gap: 10 px ;
+  grid-template-columns: repeat(4,auto);
+  grid-template-rows: repeat(3,auto);
+  background-color: rgb(255,255,255,0.5);
+  grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
+  border-radius: 1%;
+}
+.contenedor-Tarjetas{
+  width: 85%;
+  margin: 10px auto;
+  padding: 10px 0;
+  
+  display: grid;
+  grid-gap: 10 px ;
+  grid-template-columns: repeat(3,auto);
+  grid-template-rows: repeat(1,auto);
+  background-color: rgb(255,255,255,0.5);
+  border-radius: 1%;
+}
+.titulo{
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
+.imagen {
+  padding-top:2px;
+  width: 419px;
+  height: 300px;
+  margin: auto;
+  padding: auto;
 }
