@@ -73,8 +73,9 @@ li a:hover {
 .contenedor-Tarjetas{
   width: 85%;
   margin: 10px auto;
-  padding: 10px 0;
+
   margin: auto;
+
   display: grid;
   grid-gap: 10px ;
   grid-template-rows: repeat(1,auto);
@@ -107,14 +108,22 @@ li a:hover {
   font-family: arial;
 }
 
-@media  screen and (max-width: 580px) {
+@media  screen and (max-width: 581px) {
   .contenedor-Tarjetas{
-    width: 100%;
-    height: auto;
+    width: 90%;
+    height: auto
   }
   .titulo{
-    width: auto;
+    margin-right: 11px !important;
+  }
+  .titulo h2{
+    text-align: left;
+    padding-right: 10px;
+    width: 90%;
   }
 }
+
+
+
 /*Footer*/
 
