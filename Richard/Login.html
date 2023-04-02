@@ -9,45 +9,67 @@
     <link rel="stylesheet" href="/Richard/styleG.css" />
   </head>
   <body>
+   
     <div class="header">
       <ul>
-        <li><a href="/Principal/index.html">Home</a></li>
-        
-        <li>
-          <a  href="/Richard/GaleriaImagenes.html"
-            >Galería Imagenes</a
-          >
-        </li>
+        <li><a class="active" href="/Principal/index.html">Home</a></li>
+        <li><a href="/Richard/GaleriaImagenes.html">Galería Imagenes</a></li>
         <li><a href="/Richard/acercanosotros.html">Acerca de Nosotros</a></li>
         <li><a href="/Doryan/Contacto2.html">Contacto</a></li>
-        <li><a class="active" href="/Richard/Login.html">Login</a></li>
+        <li><a href="/Richard/Login.html">Login</a></li>
       </ul>
     </div>
 
-    <div class="formulario">
-      <h2>Inicio Sesión</h2>
-      <form method="post">
-        <div class="username">
-          <input type="text" required />
-          <label>Nombre Usuario</label>
-        </div>
-        <div class="username">
-          <input type="password" required />
-          <label>Contraseña</label>
-        </div>
-        <div class="recordar">¿Olvidó su contraseña?</div>
-        <input type="submit" value="Iniciar" />
-        <div class="registrarse">
-          ¿Quiere hacer el <a href="/Richard/Registro.html">Registro</a>?
-        </div>
-      </form>
+
+    <div class="contenedor">
+      <div class="formulario">
+        <h2>Inicio Sesión</h2>
+        <form method="post">
+          <div class="username">
+            <input type="text" required />
+            <label>Nombre Usuario</label>
+          </div>
+          <div class="username">
+            <input type="password" required />
+            <label>Contraseña</label>
+          </div>
+          <div class="recordar">¿Olvidó su contraseña?</div>
+            <input type="submit" value="Iniciar" />
+            <div class="registrarse">
+              ¿Quiere hacer el <a href="/Richard/Registro.html">Registro</a>?
+            </div>
+        </form>
+      </div>
     </div>
-
-    <footer class="footer1">
-
-        <p>Lorem
-        </p>
-
-    </footer>
-  </body>
+    </body>
+    <footer class="pie-pagina">
+      <div class="grupo-1">
+          <div class="box">
+              <figure>
+                  <a href="#">
+                      <img src="img/logotipo-sleedw.svg" alt="Logo de SLee Dw">
+                  </a>
+              </figure>
+          </div>
+          <div class="box">
+              <h2>SOBRE NOSOTROS</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
+          </div>
+          <div class="box">
+              <h2>SIGUENOS</h2>
+              <div class="red-social">
+                  <a href="#" class="fa fa-facebook"></a>
+                  <a href="#" class="fa fa-instagram"></a>
+                  <a href="#" class="fa fa-twitter"></a>
+                  <a href="#" class="fa fa-youtube"></a>
+              </div>
+          </div>
+      </div>
+      <div class="grupo-2">
+          <small>&copy; 2021 <b>SLee Dw</b> - Todos los Derechos Reservados.</small>
+      </div>
+  </footer>
+    
+   
 </html>

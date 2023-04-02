@@ -6,15 +6,14 @@ body{
 }
 
 .formulario{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
     width: 400px;
+    height: 420px;
+    margin: auto auto;
+    margin-bottom: 31.125px;
     background: #2c2738;
     border-radius: 10px;
 }
-
+}
 .formulario h1{
     text-align: center;
     padding: 0 0 20px 0;
