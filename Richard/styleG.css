@@ -110,21 +110,8 @@ li a:hover {
 
 @media  screen and (max-width: 581px) {
   .contenedor-Tarjetas{
-    width: 90%;
-    height: auto
-  }
-  .titulo{
-    margin-right: 11px !important;
-  }
-  .titulo h2{
-    text-align: left;
-    padding-right: 10px;
-    width: 90%;
-    height: auto;
+    width: 100%;
   }
 }
-
-
-
 /*Footer*/
 
